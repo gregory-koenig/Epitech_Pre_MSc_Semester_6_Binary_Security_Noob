@@ -1,0 +1,10 @@
+ssh -p 2222 user@51.255.135.192
+
+Password: n00buser
+
+[!] Challenge is located in /noob.
+
+[!] The flag can be read by the "user-cracked" user account.
+
+[!] Your goal is to pown the vulnerable application in order to obtain "user-cracked" permissions and to read the flag.
+
