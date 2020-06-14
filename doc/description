@@ -1,0 +1,24 @@
+ Project description: Noob Oriented Operations on Binaries : Capture the Flag contest focused on reverse engineering and binary exploitation.
+
+Over the course of the project's duration, the goal is to take advantage of the weaknesses and obtain the permissions or informations for the infrastructures that were set up for the project. It is a platform in which groups of students compete and try to obtain the highest score, sometimes at the cost of the other teams.
+
+A non-exhaustive list of areas covered:
+
+* Reverse Engineering:
+  * Anti-debugging techniques (Corrupted ELF format, stripped binaries, Packing, checksum on the binary itself, stack corruption, ptrace etc.)
+  * Different Architectures/Formats: Elf, PE, x86, x64, ARM  
+
+* Exploitation
+  * Vulnerabilities
+    * Buffer Overflow
+      * Stack Based
+      * Heap Based
+    * Integer Overflow
+    * Use after free
+    * Format string
+  * Techniques
+    * Debugging (r2 / GDB)
+    * Ret-to-X (code, libc etc.), Stack pivot, ROP
+    * Loading binaries (auxvv, GOT / PLT)
+    * Bypassing protections (NX, ASLR, ASCII-Armor etc.)
+    * Malloc Des-Maleficarum Houses
